@@ -25,12 +25,12 @@ public class Programa {
         System.out.print("Informe valor para depósito: R$");
         double deposito = sc.nextDouble();
         c1.depositar(deposito);
-        System.out.println("Seu saldo: R$"+c1.getSaldo());
+        //System.out.println("Seu saldo: R$"+c1.getSaldo());
         
         System.out.print("Informe valor para sacar: R$");
         double saque = sc.nextDouble();
         c1.sacar(saque);
-        System.out.println("Seu saldo: R$"+c1.getSaldo());
+        //System.out.println("Seu saldo: R$"+c1.getSaldo());
         
         System.out.println("Conta: "+c1.getNumConta());
         System.out.println("Titular: "+c1.getNomeTitular());

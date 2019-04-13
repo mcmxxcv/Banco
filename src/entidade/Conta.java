@@ -41,9 +41,11 @@ public class Conta {
     
     public void depositar(double saldo){
         this.saldo += saldo;
+        System.out.println("O novo saldo é: R$"+getSaldo());
     }
     
     public void sacar(double saldo){
         this.saldo -= saldo + 5;
+        System.out.println("O novo saldo é: R$"+getSaldo());
     }    
 }
